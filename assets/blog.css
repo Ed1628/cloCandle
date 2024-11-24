@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    width: 10%;
+    height: 100vh;
+    background:linear-gradient(burlywood, brown, pink) burlywood;
+    position: fixed;
+    box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.5);
+
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+ul {
+    position: absolute;
+    margin-top: 300px;
+}
+
+nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}   
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}   
+
+main {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    
+}
+
+li:hover {
+   background-color: brown; 
+}   
+
+ul {
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 40px;
+}
+
+.logo-box {
+    width: 280px;
+    height: 150px;
+    border: 1px solid #333;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 10px 5px 5px -2px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin-left: 10px;
+}
+
+.social-links {
+  color: #333;
+  opacity: 80%;
+  margin-left: 25px;
+}
+.social-links:hover {
+  opacity: 100%;
+  color: #ff7e5f;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.title-post {
+    text-align: center;
+    margin-top: 20px;
+}   
+
+.post-box {
+    width: 100%;
+    height: auto;
+}
+.post-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-post {
+    width: 100%;
+    margin-top: 20%;
+  
+    border: 2px dashed #ff7e5f;
+    border-radius: 15px;
+    background: #fff5e6;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', serif;
+}
+
+.post1 {
+    margin: 3%;
+    width: 70%;
+    height: 10%;
+}
+
+.img-posts {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.post2 {
+    margin: 3%;
+    width: 70%;
+    height: 10%;
+}
+
+.content-post h1 {
+    font-size: 36px;
+    color: #ff7e5f;
+    text-align: center;
+}
+
+.content-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.content-post hr {
+    border: 0;
+    height: 1px;
+    background: #ff7e5f;
+    margin: 20px 0;
+}
+
+.content-post p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.btn-post {
+    width: 10%;
+    margin-left: 90%;
+    height: 50px;
+    background-color: #ff7e5f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
+    box-shadow: 0px 4px 8px #333;
+}
+.btn-post:hover {
+    zoom: 1.1;
+    background-color: orangered;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 10%;
+    color: #fff;
+    background-color: brown;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        box-shadow: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 0;
+        position: static;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 0;
+        padding: 2%;
+    }
+
+    .logo-box {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+        position: static;
+    }
+
+    .post1, .post2 {
+        width: 100%;
+    }
+
+    .btn-post {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-post h1 {
+        font-size: 28px;
+    }
+
+    .content-post p {
+        font-size: 16px;
+    }
+
+    .btn-post {
+        height: 40px;
+    }
+}

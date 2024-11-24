@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@keyframes texthome {
+    0% {
+        
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Contact Page Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px solid #000;
+    background-image: url(../assets/images/bg-wallpaper.jpg);
+    background-size: cover;
+}
+
+h1, h2, h3,h4 {
+    text-align: center;
+}
+
+nav {
+    width: 100vh;
+    height: 60px;
+    margin-left: 33%;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    background-color: #f8f9fa;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+ul {
+   
+}
+
+nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}   
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}   
+
+.contatti {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);  
+}
+
+.contatti a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+li:hover {
+   background-color: brown; 
+   border-radius: 10px;
+   transition: 0.5s;
+}   
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+
+}
+
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button {
+    width: 300px;
+    padding: 10px;
+    font-size: 22px;
+    margin-left: 33%;
+    margin-top: 20px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: #fff;
+    justify-content: center;
+    position: relative;
+    
+}
+.footer p {
+    text-align: center;
+}
+.bg-bottom {
+    width: 70%;
+    padding: 0;
+    margin-left: 15%;
+    margin-top: 5%;
+    position: relative;
+}
